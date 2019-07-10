@@ -24,6 +24,10 @@
   <id>snapshots</id>
   <url>http://3.83.207.126:8081/nexus/content/repositories/snapshots/</url>
   </snapshotRepository>
+  <releaseRepository>
+  <id>releases</id>
+  <url>http://3.83.207.126:8081/nexus/content/repositories/releases/</url>
+  </releaseRepository>
   </distributionManagement>
   <build>
     <plugins>
